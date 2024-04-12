@@ -1,0 +1,72 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  margin-top: 25px;
+  font-family: sans-serif;
+}
+
+h1 {
+  margin-bottom: 25px;
+}
+
+input {
+  margin: 0 25px 25px 0;
+  padding: 5px;
+  width: 300px;
+}
+
+.container {
+  max-width: 1000px;
+  margin: 0 auto;
+}
+
+.application-text {
+  font-weight: bold;
+  color: blue;
+}
+
+.application {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 800px;
+  height: 230px;
+  margin: 0 auto 5px;
+}
+
+.application-text-wrapper {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.btn-add-app {
+  width: 170px;
+  padding: 10px;
+  margin-top: 15px;
+  cursor: pointer;
+}
+
+.application-img {
+  width: 500px;
+  display: none;
+}
+
+.active {
+  display: initial;
+}
+
+.btn-add-book {
+  width: 150px;
+  padding: 5px;
+  cursor: pointer;
+}
+
+.list-book {
+  margin-bottom: 5px;
+}

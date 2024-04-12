@@ -25,17 +25,22 @@ export default useLocalStorage;
 
 
 
+// 1. «Гордість і упередження» - Джейн Остін
 
-  // const useLocalStorage = () => {
-//     const { listBooks } = useGetData();
-//     const [storedBooks, setStoredBooks] = useState([]);
+// 2. «Діти капітана Гранта» - Жюль Верн
 
-//     useEffect(() => {
-//         setStoredBooks(listBooks);
-//         localStorage.setItem('BookList', JSON.stringify(storedBooks));
-//     }, [storedBooks]);
+// 3. «Рембо» - Девід Моррелл
 
-//     return storedBooks;
-// };
+// 4. «Мистецтво війни» - Сунь-цзи
 
-// export default useLocalStorage;
+// 5. «Гостя з майбутнього» - Кір Буличов
+
+// 6. «Тореадори з Васюківки» - Всеволод Нестайко
+
+// 7. «Анна з Зелених Дахів» - Люсі Мод Монтгомері
+
+// 8. «Маленький принц» - Антуан де Сент-Екзюпері
+
+// 9. «Ігри, у які грають люди» - Ерік Берн
+
+// 10. «Чоловік на ім’я Уве» - Фредрік Бакман
